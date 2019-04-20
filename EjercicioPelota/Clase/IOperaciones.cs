@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace EjercicioPelota.Clase
 {
-    class IOperaciones
+    public interface  IOperaciones
     {
+        void AgregarCaracteristicas(Pelota pelotas);
+        void AgregarCaracteristicas(int Serie);
+        void EliminarCaracteristicas(Pelota pelotas);
+        void EliminarCaracteristicas(int Serie, string modelo);
     }
 }
