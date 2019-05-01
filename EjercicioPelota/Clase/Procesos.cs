@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EjercicioPelota.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,8 +29,5 @@ namespace EjercicioPelota.Clase
         {
             throw new NotImplementedException();
         }
-
-
-
     }
 }
