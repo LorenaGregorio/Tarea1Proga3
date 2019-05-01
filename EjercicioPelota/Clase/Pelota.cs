@@ -9,6 +9,9 @@ namespace EjercicioPelota.Clase
 {
     public class Pelota : ICaracteristicas
     {
+
+
+
         public int Serie { get; set; }
         public string Modelo { get; set; }
         public string Marca { get; set; }
